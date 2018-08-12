@@ -10,7 +10,7 @@ public class DataFile
 			
 			String password = reader.getCellData("Data1", "Password", 2);
 			String emailError = reader.getCellData("Data1", "Email Error", 3);
-			String passwordError = reader.getCellData("Data1", "Password Error", 1);
+			String passwordError = reader.getCellData("Data1", "Password Error", 2);
 			
 			//home page data
 			
