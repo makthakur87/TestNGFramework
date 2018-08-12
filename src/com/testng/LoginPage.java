@@ -76,10 +76,12 @@ public class LoginPage
 	}
 	
 		
-	public void enterEmail(String a)
+	public void enterEmail(String a) throws InterruptedException
 	{
 		email.sendKeys(a);
 		emailNext.click();
+		
+		Thread.sleep(3000);
 	}
 	
 	public void enterPassword(String b) throws InterruptedException

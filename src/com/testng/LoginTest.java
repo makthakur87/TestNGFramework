@@ -36,7 +36,7 @@ public class LoginTest
 	}
 	
 	@Test
-	public void enter_wrong_email()
+	public void enter_wrong_email() throws InterruptedException
 	{
 		loginpage.enterEmail(datafile.wrongEmail);
 		Assert.assertEquals(loginpage.readEmailErrorsMsg(), datafile.emailError);
